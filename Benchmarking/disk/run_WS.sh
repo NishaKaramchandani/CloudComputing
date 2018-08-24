@@ -1,0 +1,9 @@
+srun --output=./output/disk-WS-1000-1thread.dat ./MyDiskBench disk-WS-1000-1thread.dat &
+srun --output=./output/disk-WS-1000-2thread.dat ./MyDiskBench disk-WS-1000-2thread.dat &
+srun --output=./output/disk-WS-1000-4thread.dat ./MyDiskBench disk-WS-1000-4thread.dat &
+srun --output=./output/disk-WS-10000-1thread.dat ./MyDiskBench disk-WS-10000-1thread.dat &
+srun --output=./output/disk-WS-10000-2thread.dat ./MyDiskBench disk-WS-10000-2thread.dat &
+srun --output=./output/disk-WS-10000-4thread.dat ./MyDiskBench disk-WS-10000-4thread.dat &
+srun --output=./output/disk-WS-100000-1thread.dat ./MyDiskBench disk-WS-100000-1thread.dat &
+srun --output=./output/disk-WS-100000-2thread.dat ./MyDiskBench disk-WS-100000-2thread.dat &
+srun --output=./output/disk-WS-100000-4thread.dat ./MyDiskBench disk-WS-100000-4thread.dat &
